@@ -1,17 +1,11 @@
 print("dev was here")
-# id      763152432477372430
-# token     NzYzMTUyNDMyNDc3MzcyNDMw.X3zjFg.qGUD0qmL-MlYrJHQW3dLe0hpm3E
-# permission int      34670656
-
-# https://discordapp.com/oauth2/authorize?client_id={CLIENTID}&scope=bot&permissions={PERMISSIONINT}
-# https://discordapp.com/oauth2/authorize?client_id=763152432477372430&scope=bot&permissions=34670656
 
 import discord
 
 print(discord.__version__)
 
 client = discord.Client()
-token = "NzYzMTUyNDMyNDc3MzcyNDMw.X3zjFg.qGUD0qmL-MlYrJHQW3dLe0hpm3E"
+token = ""
 
 @client.event 
 async def on_ready():
